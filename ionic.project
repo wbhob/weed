@@ -1,0 +1,12 @@
+{
+  "name": "weed",
+  "app_id": "86d8e9ae",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

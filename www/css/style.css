@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+.body {
+  background-color:#12b12a;
+  height:100%;
+}
+.centered, h3 {
+  font-family: "Roboto", sans-serif;
+  text-align:center !important;
+  color:white !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content-inner {
+}

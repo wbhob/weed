@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C700%2C300" rel="stylesheet" type="text/css">
+
+  <!-- compiled css output -->
+  <link href="css/ionic.app.css" rel="stylesheet">
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+  <div class="body">
+
+    <ion-pane ng-controller="AppCtrl">
+      <ion-content class="padding centered">
+        <h3 style="margin-top:80px">Welcome to BlazeMe</h3>
+        <p>
+          This awesome app will tell you when it is 4:20 PM, so you can go do whatever you need to do.
+        </p>
+        <br>
+        <p>
+          To start, press the button below to allow notifications. You'll get your first notification later today. If it is past 4:19, you will see the notification after pressing the button below.
+        </p>
+        <br>
+        <br>
+        <button class="button button-positive button-outline button-block" ng-click="registerPush()">Set Push Notifications</button>
+      </ion-content>
+    </ion-pane>
+  </div>
+</body>
+
+</html>
